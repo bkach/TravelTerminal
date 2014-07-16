@@ -30,7 +30,9 @@ def station_choice(results,num):
     else:
         return choice
 if len(sys.argv) == 1:
-    from_station = raw_input("From: ")
+    from_station = raw_input("From: Stockholm" + chr(8)*9)
+    if not from_station:
+        from_station = "Stockholm"
     from_results = findLocation(from_station)
     printResults(from_results,0,10)
     from_choice = int(station_choice(from_results,10))
@@ -39,22 +41,24 @@ if len(sys.argv) == 1:
     print "\t" + unicode(from_choice_name).encode('utf-8')
 
 
-    to_station = raw_input("To: ")
+    to_station = raw_input("To: Uppsala" + chr(8)*4)
+    if not to_station:
+        to_station = "Uppsala"
     to_results = findLocation(to_station)
     printResults(to_results,0,10)
     to_choice = int(station_choice(to_results,10))
-    to_choice_name = from_results.items()[to_choice][0]
-    to_choice_id = from_results.items()[to_choice][1]
+    to_choice_name = to_results.items()[to_choice][0]
+    to_choice_id = to_results.items()[to_choice][1]
     print "\t" + unicode(to_choice_name).encode('utf-8')
 
-    departureDate = ""
-    while departureDate == "":
-        departureDate = raw_input("Departure Window Date (%s): " \
-                % datetime.now().strftime("%Y-%m-%d"))
-    departureTime = ""
-    while departureTime == "":
-        departureTime = raw_input("Departure Window Time (%s): " \
-                % datetime.now().strftime("%H:%M"))
+    departureDate = raw_input("Departure Window Date : %s" \
+            % datetime.now().strftime("%Y-%m-%d") + chr(8)*10)
+    if not departureDate:
+        departureDate = datetime.now().strftime("%Y-%m-%d")
+    departureTime = raw_input("Departure Window Time: %s" \
+            % datetime.now().strftime("%H:%M") + chr(8)*5)
+    if not departureTime:
+        departureTime = datetime.now().strftime("%H:%M")
     arrivalDate = ""
     while arrivalDate == "":
         arrivalDate = raw_input("Arrival Window Date (%s): " \
