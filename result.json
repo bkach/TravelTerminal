@@ -1,0 +1,632 @@
+{
+  "timetableresult": {
+    "ttitem": [
+      {
+        "price": "725", 
+        "search": {
+          "responce": {
+            "AEX": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.037032"
+            }, 
+            "BT": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.040637"
+            }, 
+            "BTR": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.042317"
+            }, 
+            "DTR": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.041501"
+            }, 
+            "HLT": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.039684"
+            }, 
+            "JLT": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.041036"
+            }, 
+            "KLT": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.043518"
+            }, 
+            "LTK": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.041903"
+            }, 
+            "MAS": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.051908"
+            }, 
+            "NETTBUSS": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.038177"
+            }, 
+            "NSB": {
+              "chandle": "", 
+              "pricedata": {
+                "error": " from / to not in network"
+              }, 
+              "pricedatatime": "0.032957"
+            }, 
+            "OT": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.037797"
+            }, 
+            "SJ": {
+              "chandle": "", 
+              "pricedata": {
+                "arrivalTime": "20:47", 
+                "currency": "SEK", 
+                "date": "2014-07-16", 
+                "departureTime": "15:11", 
+                "from": "7400005", 
+                "price": 725, 
+                "sellername": "SJ", 
+                "soldOut": false, 
+                "to": "7400003", 
+                "travelerAge": 35, 
+                "travelerIsStudent": false, 
+                "url": "http://www.sj.se/microsite/microsite/submit.form?header.key=K253891822496069832&l=sv&B=Uppsala+C&c=Malm%C3%B6+C&f=20140716&F=1500&g=DEPARTURE_DATE_TIME&h=20140716&i=DEPARTURE_DATE_TIME&N=1&mA=VU&cA=Inget+kort", 
+                "validPrice": true
+              }, 
+              "pricedatatime": "0.050793"
+            }, 
+            "SKTR": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.039123"
+            }, 
+            "SL": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "To station not in network"
+              }, 
+              "pricedatatime": "0.024452"
+            }, 
+            "SWEBUS": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.040129"
+            }, 
+            "Snt": {
+              "chandle": "", 
+              "pricedata": {
+                "arrivalTime": "20:47", 
+                "currency": "SEK", 
+                "date": "2014-07-16", 
+                "departureTime": "15:11", 
+                "from": "Uppsala C", 
+                "price": 725, 
+                "sellername": "Sn\u00e4llt\u00e5get", 
+                "to": "Malm\u00f6 C", 
+                "travelerAge": 35, 
+                "travelerIsStudent": false, 
+                "url": "https://boka.snalltaget.se/boka-biljett#!/step1?from=5&to=3&date=2014-07-16", 
+                "validPrice": true
+              }, 
+              "pricedatatime": "0.051677"
+            }, 
+            "TIB": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.037333"
+            }, 
+            "VT": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.036354"
+            }, 
+            "XTR": {
+              "chandle": "", 
+              "pricedata": {
+                "error": "from/to station not in network"
+              }, 
+              "pricedatatime": "0.042972"
+            }
+          }, 
+          "url": "from=7400005&to=7400003&date=2014-07-16&departureTime=15%3A11&arrivalDate=2014-07-16&arrivalTime=20%3A47"
+        }, 
+        "segment": [
+          {
+            "arrival": {
+              "datetime": "2014-07-16 15:53", 
+              "location": {
+                "id": "7400001", 
+                "name": "Stockholm Centralstation", 
+                "x": "18.058155", 
+                "y": "59.33014"
+              }
+            }, 
+            "departure": {
+              "datetime": "2014-07-16 15:11", 
+              "location": {
+                "id": "7400005", 
+                "name": "Uppsala Centralstation", 
+                "x": "17.646086", 
+                "y": "59.858534"
+              }
+            }, 
+            "direction": "Stockholm Centralstation", 
+            "lowestprice": "84", 
+            "lowestpriceseller": {
+              "name": "SJ", 
+              "url": "http://www.sj.se/microsite/microsite/submit.form?header.key=K253891822496069832&l=sv&B=Uppsala+C&c=Stockholm+C&f=20140716&F=1500&g=DEPARTURE_DATE_TIME&h=20140716&i=DEPARTURE_DATE_TIME&N=1&mA=VU&cA=Inget+kort"
+            }, 
+            "remarks": {
+              "remark": {
+                "id": "AE", 
+                "text": "Ej reservering"
+              }
+            }, 
+            "search": {
+              "responce": {
+                "AEX": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.053666"
+                }, 
+                "BT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "no data for that trip"
+                  }, 
+                  "pricedatatime": "0.549108"
+                }, 
+                "BTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.18249"
+                }, 
+                "DTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.182173"
+                }, 
+                "HLT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.057513"
+                }, 
+                "JLT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.181918"
+                }, 
+                "KLT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.183522"
+                }, 
+                "LTK": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.182969"
+                }, 
+                "MAS": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.184182"
+                }, 
+                "NETTBUSS": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.055927"
+                }, 
+                "NSB": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": " from / to not in network"
+                  }, 
+                  "pricedatatime": "0.052319"
+                }, 
+                "OT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.054498"
+                }, 
+                "SJ": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "arrivalTime": "15:53", 
+                    "currency": "SEK", 
+                    "date": "2014-07-16", 
+                    "departureTime": "15:11", 
+                    "from": "7400005", 
+                    "price": 84, 
+                    "sellername": "SJ", 
+                    "soldOut": false, 
+                    "to": "7400001", 
+                    "travelerAge": 35, 
+                    "travelerIsStudent": false, 
+                    "url": "http://www.sj.se/microsite/microsite/submit.form?header.key=K253891822496069832&l=sv&B=Uppsala+C&c=Stockholm+C&f=20140716&F=1500&g=DEPARTURE_DATE_TIME&h=20140716&i=DEPARTURE_DATE_TIME&N=1&mA=VU&cA=Inget+kort", 
+                    "validPrice": true
+                  }, 
+                  "pricedatatime": "0.056688"
+                }, 
+                "SKTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.055597"
+                }, 
+                "SL": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "From station not in network"
+                  }, 
+                  "pricedatatime": "0.023658"
+                }, 
+                "SWEBUS": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.057005"
+                }, 
+                "Snt": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "arrivalTime": "15:53", 
+                    "currency": "SEK", 
+                    "date": "2014-07-16", 
+                    "departureTime": "15:11", 
+                    "from": "Uppsala C", 
+                    "price": 88, 
+                    "sellername": "Sn\u00e4llt\u00e5get", 
+                    "to": "Stockholm C", 
+                    "travelerAge": 35, 
+                    "travelerIsStudent": false, 
+                    "url": "https://boka.snalltaget.se/boka-biljett#!/step1?from=5&to=1&date=2014-07-16", 
+                    "validPrice": true
+                  }, 
+                  "pricedatatime": "0.181512"
+                }, 
+                "TIB": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.055104"
+                }, 
+                "VT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.052861"
+                }, 
+                "XTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.183277"
+                }
+              }, 
+              "url": "from=7400005&to=7400001&date=2014-07-16&departureTime=15%3A11&arrivalDate=2014-07-16&arrivalTime=15%3A53"
+            }, 
+            "segmentid": {
+              "carrier": {
+                "id": "74", 
+                "name": "SJ", 
+                "number": "10845", 
+                "url": "http://www.sj.se/"
+              }, 
+              "mot": {
+                "displaytype": "J", 
+                "text": "Regional", 
+                "type": "JRE"
+              }
+            }
+          }, 
+          {
+            "arrival": {
+              "datetime": "2014-07-16 20:47", 
+              "location": {
+                "id": "7400003", 
+                "name": "Malm\u00f6 Centralstation", 
+                "x": "13.000913", 
+                "y": "55.609458"
+              }
+            }, 
+            "departure": {
+              "datetime": "2014-07-16 16:21", 
+              "location": {
+                "id": "7400001", 
+                "name": "Stockholm Centralstation", 
+                "x": "18.058155", 
+                "y": "59.33014"
+              }
+            }, 
+            "direction": "Malm\u00f6 Centralstation", 
+            "lowestprice": "669", 
+            "lowestpriceseller": {
+              "name": "SJ", 
+              "url": "http://www.sj.se/microsite/microsite/submit.form?header.key=K253891822496069832&l=sv&B=Stockholm+C&c=Malm%C3%B6+C&f=20140716&F=1600&g=DEPARTURE_DATE_TIME&h=20140716&i=DEPARTURE_DATE_TIME&N=1&mA=VU&cA=Inget+kort"
+            }, 
+            "remarks": {
+              "remark": [
+                {
+                  "id": "A1", 
+                  "text": "Mat 1 klass"
+                }, 
+                {
+                  "id": "AD", 
+                  "text": "Bistrovagn"
+                }, 
+                {
+                  "id": "AF", 
+                  "text": "Obligatorisk platsbokning"
+                }, 
+                {
+                  "id": "AN", 
+                  "text": "Rullstolslyft"
+                }, 
+                {
+                  "id": "AW", 
+                  "text": "Internetuppkoppling"
+                }
+              ]
+            }, 
+            "search": {
+              "responce": {
+                "AEX": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.18466"
+                }, 
+                "BT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.186761"
+                }, 
+                "BTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.189812"
+                }, 
+                "DTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.189294"
+                }, 
+                "HLT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.186592"
+                }, 
+                "JLT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.188912"
+                }, 
+                "KLT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.190428"
+                }, 
+                "LTK": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.18958"
+                }, 
+                "MAS": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.190832"
+                }, 
+                "NETTBUSS": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.185828"
+                }, 
+                "NSB": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": " from / to not in network"
+                  }, 
+                  "pricedatatime": "0.183665"
+                }, 
+                "OT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.184973"
+                }, 
+                "SJ": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "arrivalTime": "20:47", 
+                    "currency": "SEK", 
+                    "date": "2014-07-16", 
+                    "departureTime": "16:21", 
+                    "from": "7400001", 
+                    "price": 669, 
+                    "sellername": "SJ", 
+                    "soldOut": false, 
+                    "to": "7400003", 
+                    "travelerAge": 35, 
+                    "travelerIsStudent": false, 
+                    "url": "http://www.sj.se/microsite/microsite/submit.form?header.key=K253891822496069832&l=sv&B=Stockholm+C&c=Malm%C3%B6+C&f=20140716&F=1600&g=DEPARTURE_DATE_TIME&h=20140716&i=DEPARTURE_DATE_TIME&N=1&mA=VU&cA=Inget+kort", 
+                    "validPrice": true
+                  }, 
+                  "pricedatatime": "0.186392"
+                }, 
+                "SKTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.185535"
+                }, 
+                "SL": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "To station not in network"
+                  }, 
+                  "pricedatatime": "1.014847"
+                }, 
+                "SWEBUS": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.188863"
+                }, 
+                "Snt": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "arrivalTime": "20:47", 
+                    "currency": "SEK", 
+                    "date": "2014-07-16", 
+                    "departureTime": "16:21", 
+                    "from": "Stockholm C", 
+                    "price": 669, 
+                    "sellername": "Sn\u00e4llt\u00e5get", 
+                    "to": "Malm\u00f6 C", 
+                    "travelerAge": 35, 
+                    "travelerIsStudent": false, 
+                    "url": "https://boka.snalltaget.se/boka-biljett#!/step1?from=1&to=3&date=2014-07-16", 
+                    "validPrice": true
+                  }, 
+                  "pricedatatime": "0.188315"
+                }, 
+                "TIB": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.052208"
+                }, 
+                "VT": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.184252"
+                }, 
+                "XTR": {
+                  "chandle": "", 
+                  "pricedata": {
+                    "error": "from/to station not in network"
+                  }, 
+                  "pricedatatime": "0.190053"
+                }
+              }, 
+              "url": "from=7400001&to=7400003&date=2014-07-16&departureTime=16%3A21&arrivalDate=2014-07-16&arrivalTime=20%3A47"
+            }, 
+            "segmentid": {
+              "carrier": {
+                "id": "74", 
+                "name": "SJ", 
+                "number": "541", 
+                "url": "http://www.sj.se/"
+              }, 
+              "mot": {
+                "displaytype": "J", 
+                "text": "Snabbt\u00e5g", 
+                "type": "JX2"
+              }
+            }
+          }
+        ], 
+        "sellername": "SJ", 
+        "traveltimetotal": "05:36", 
+        "url": "http://www.sj.se/microsite/microsite/submit.form?header.key=K253891822496069832&l=sv&B=Uppsala+C&c=Malm%C3%B6+C&f=20140716&F=1500&g=DEPARTURE_DATE_TIME&h=20140716&i=DEPARTURE_DATE_TIME&N=1&mA=VU&cA=Inget+kort"
+      }
+    ]
+  }, 
+  "totaltime": 1.0313489437103, 
+  "totaltimeaftercache": 0.0020408630371094, 
+  "totaltimeafterreq": 0.30873489379883, 
+  "totaltimeafterreqtotr": 0.0020477771759033, 
+  "totaltimeafterurls": 0.0092508792877197, 
+  "totaltimedoneask": 1.0299170017242
+}
